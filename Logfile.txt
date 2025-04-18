@@ -1,0 +1,187 @@
+﻿Apr  6 15:13:03 IT386 systemd[1117]: Starting GNOME Terminal Server...
+Apr  6 15:13:03 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.gnome.Terminal'
+Apr  6 15:13:03 IT386 systemd[1117]: Started GNOME Terminal Server.
+Apr  6 15:13:03 IT386 systemd[1117]: Started VTE child process 1672 launched by gnome-terminal-server process 1664.
+Apr  6 15:13:04 IT386 systemd[1117]: gnome-launched-org.gnome.Terminal.desktop-1659.scope: Succeeded.
+Apr  6 15:13:14 IT386 systemd[1]: Starting OpenBSD Secure Shell server...
+Apr  6 15:13:14 IT386 systemd[1]: Started OpenBSD Secure Shell server.
+Apr  6 15:13:20 IT386 systemd[1]: Stopping OpenBSD Secure Shell server...
+Apr  6 15:13:20 IT386 systemd[1]: ssh.service: Succeeded.
+Apr  6 15:13:20 IT386 systemd[1]: Stopped OpenBSD Secure Shell server.
+Apr  6 15:13:25 IT386 systemd[1]: Starting OpenBSD Secure Shell server...
+Apr  6 15:13:25 IT386 systemd[1]: Started OpenBSD Secure Shell server.
+Apr  6 15:13:28 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.25' (uid=1000 pid=1273 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr  6 15:13:28 IT386 systemd[1117]: Starting Virtual filesystem metadata service...
+Apr  6 15:13:28 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.gtk.vfs.Metadata'
+Apr  6 15:13:28 IT386 systemd[1117]: Started Virtual filesystem metadata service.
+Apr  6 15:13:29 IT386 geoclue[1470]: Service not used for 60 seconds. Shutting down..
+Apr  6 15:13:29 IT386 systemd[1]: geoclue.service: Succeeded.
+Apr  6 15:13:30 IT386 systemd[1]: Stopping OpenBSD Secure Shell server...
+Apr  6 15:13:30 IT386 systemd[1]: ssh.service: Succeeded.
+Apr  6 15:13:30 IT386 systemd[1]: Stopped OpenBSD Secure Shell server.
+Apr  6 15:13:33 IT386 systemd[1]: Starting OpenBSD Secure Shell server...
+Apr  6 15:13:33 IT386 systemd[1]: Started OpenBSD Secure Shell server.
+Apr  6 15:13:44 IT386 systemd[1117]: Started Application launched by gnome-shell.
+Apr  6 15:13:47 IT386 dbus-daemon[570]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.98' (uid=1000 pid=1738 comm="/usr/lib/firefox/firefox -new-window " label="unconfined")
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.82' (uid=1000 pid=1738 comm="/usr/lib/firefox/firefox -new-window " label="unconfined")
+Apr  6 15:13:47 IT386 systemd[1]: Starting Time & Date Service...
+Apr  6 15:13:47 IT386 systemd[1117]: Starting Portal service...
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.83' (uid=1000 pid=1802 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Apr  6 15:13:47 IT386 systemd[1117]: Starting flatpak document portal service...
+Apr  6 15:13:47 IT386 dbus-daemon[570]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr  6 15:13:47 IT386 systemd[1]: Started Time & Date Service.
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.freedesktop.portal.Documents'
+Apr  6 15:13:47 IT386 systemd[1117]: Started flatpak document portal service.
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.83' (uid=1000 pid=1802 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Apr  6 15:13:47 IT386 systemd[1117]: Starting Portal service (GTK+/GNOME implementation)...
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Apr  6 15:13:47 IT386 systemd[1117]: Started Portal service (GTK+/GNOME implementation).
+Apr  6 15:13:47 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating service name='org.freedesktop.FileManager1' requested by ':1.83' (uid=1000 pid=1802 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Apr  6 15:13:48 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.freedesktop.FileManager1'
+Apr  6 15:13:48 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.freedesktop.portal.Desktop'
+Apr  6 15:13:48 IT386 systemd[1117]: Started Portal service.
+Apr  6 15:13:49 IT386 rtkit-daemon[761]: Supervising 2 threads of 1 processes of 1 users.
+Apr  6 15:13:49 IT386 rtkit-daemon[761]: message repeated 3 times: [ Supervising 2 threads of 1 processes of 1 users.]
+Apr  6 15:13:49 IT386 rtkit-daemon[761]: Successfully made thread 1900 of process 1738 owned by '1000' RT at priority 10.
+Apr  6 15:13:49 IT386 rtkit-daemon[761]: Supervising 3 threads of 2 processes of 1 users.
+Apr  6 15:13:51 IT386 rtkit-daemon[761]: message repeated 4 times: [ Supervising 3 threads of 2 processes of 1 users.]
+Apr  6 15:13:53 IT386 systemd[1117]: vte-spawn-0bd6ef86-eec1-4ab4-a930-14374020b762.scope: Succeeded.
+Apr  6 15:13:53 IT386 systemd[1117]: gnome-terminal-server.service: Succeeded.
+Apr  6 15:13:54 IT386 rtkit-daemon[761]: Supervising 3 threads of 2 processes of 1 users.
+Apr  6 15:13:55 IT386 rtkit-daemon[761]: message repeated 5 times: [ Supervising 3 threads of 2 processes of 1 users.]
+Apr  6 15:13:59 IT386 gnome-shell[1933]: [Child 1933, Main Thread] WARNING: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied: 'glib warning', file /build/firefox-gUwsIg/firefox-136.0+build3/toolkit/xre/nsSigHandlers.cpp:201
+Apr  6 15:13:59 IT386 gnome-shell[1933]: (/usr/lib/firefox/firefox:1933): dconf-WARNING **: 15:13:59.384: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Apr  6 20:14:11 10.0.0.1 php-fpm[25338]: Local User Database: Successfully edited user admin
+Apr  6 20:14:11 10.0.0.1 check_reload_status[373]: Syncing firewall
+Apr  6 15:14:17 IT386 systemd[1]: systemd-timedated.service: Succeeded.
+Apr  6 15:14:30 IT386 kernel: [  195.734101] [UFW BLOCK] IN=ens18 OUT= MAC=26:b8:7e:09:fb:80:5e:57:1b:53:37:5c:08:00 SRC=10.0.0.1 DST=10.0.0.58 LEN=1500 TOS=0x00 PREC=0x00 TTL=64 ID=0 DF PROTO=TCP SPT=80 DPT=58244 WINDOW=514 RES=0x00 ACK URGP=0
+Apr  6 20:14:36 10.0.0.1 check_reload_status[373]: Syncing firewall
+Apr  6 20:14:36 10.0.0.1 php-fpm[25338]: Local User Database: Successfully created user EVILDOER
+Apr  6 20:14:43 10.0.0.1 check_reload_status[373]: Syncing firewall
+Apr  6 20:14:43 10.0.0.1 php-fpm[25338]: Local User Database: Successfully deleted user: EVILDOER
+Apr  6 15:14:50 IT386 systemd[1117]: Started Application launched by gnome-shell.
+Apr  6 15:14:50 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.87' (uid=1000 pid=2135 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Apr  6 15:14:50 IT386 systemd[1117]: Starting GNOME Terminal Server...
+Apr  6 15:14:50 IT386 dbus-daemon[1131]: [session uid=1000 pid=1131] Successfully activated service 'org.gnome.Terminal'
+Apr  6 15:14:50 IT386 systemd[1117]: Started GNOME Terminal Server.
+Apr  6 15:14:50 IT386 systemd[1117]: Started VTE child process 2146 launched by gnome-terminal-server process 2138.
+Apr  6 15:14:50 IT386 systemd[1117]: gnome-launched-org.gnome.Terminal.desktop-2131.scope: Succeeded.
+Apr  6 15:15:01 kali CRON[4044853]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr  6 15:15:06 IT386 gnome-shell[1273]: ../clutter/clutter/clutter-actor.c:10558: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Apr  6 15:15:06 IT386 kernel: [  231.773968] [UFW BLOCK] IN=ens18 OUT= MAC=26:b8:7e:09:fb:80:5e:57:1b:53:37:5c:08:00 SRC=10.0.0.1 DST=10.0.0.58 LEN=1500 TOS=0x00 PREC=0x00 TTL=64 ID=0 DF PROTO=TCP SPT=80 DPT=58244 WINDOW=514 RES=0x00 ACK URGP=0
+Apr  6 15:15:08 IT386 gnome-shell[1273]: endSessionDialog: No XDG_SESSION_ID, fetched from logind: 2
+LOG OFF OCCURS HERE 
+Apr  6 15:15:10 IT386 gnome-shell[1738]: [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Apr  6 15:15:10 IT386 kernel: [  236.221047] rfkill: input handler enabled
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-housekeeping.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-smartcard.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-a11y-settings.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-print-notifications.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-rfkill.service: Succeeded.
+Apr  6 15:15:10 IT386 pulseaudio[1123]: ICE default IO error handler doing an exit(), pid = 1123, errno = 32
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-screensaver-proxy.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-sharing.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-usb-protection.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-wwan.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Accessibility settings.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Date & Time handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Maintenance of expirable data.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Printer notifications.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME RFKill handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Freedesktop screensaver handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Sharing handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Smartcard handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Sound sample caching handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME USB protection handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME WWan management.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-sound.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Sound sample caching handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Color management.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Keyboard handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Media keys handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Power management handling.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Wacom handling.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-datetime.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Date & Time handling.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-power.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Power management handling.
+Apr  6 15:15:10 IT386 systemd[1]: unattended-upgrades.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME X11 Session (session: ubuntu).
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target Current graphical user session.
+Apr  6 15:15:10 IT386 systemd[1117]: unicast-local-avahi.path: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped Path trigger for Avahi .local domain notifications.
+Apr  6 15:15:10 IT386 systemd[1117]: update-notifier-crash.path: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped Path trigger for Apport crash notifications.
+Apr  6 15:15:10 IT386 systemd[1117]: update-notifier-release.path: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped Path trigger for new release of Ubuntu notifications.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Session.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME X11 Session.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME Session (session: ubuntu).
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME XSettings.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped target GNOME session X11 services.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopping GNOME Terminal Server...
+Apr  6 15:15:10 IT386 systemd[1117]: Stopping GNOME XSettings...
+Apr  6 15:15:10 IT386 systemd[1117]: pulseaudio.service: Main process exited, code=exited, status=1/FAILURE
+Apr  6 15:15:10 IT386 systemd[1117]: pulseaudio.service: Failed with result 'exit-code'.
+Apr  6 15:15:10 IT386 systemd[1117]: at-spi-dbus-bus.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-color.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Color management.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-keyboard.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Keyboard handling.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-media-keys.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Media keys handling.
+Apr  6 15:15:10 IT386 systemd[1117]: gsd-wacom.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Wacom handling.
+Apr  6 15:15:10 IT386 systemd[1117]: gnome-terminal-server.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped GNOME Terminal Server.
+Apr  6 15:15:10 IT386 systemd[1117]: vte-spawn-2ca6a1aa-57d9-444f-b0a3-e20d0eefe23d.scope: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Session 2 of user vmuser.
+Apr  6 15:15:10 IT386 systemd[1]: Removed slice system-getty.slice.
+Apr  6 15:15:10 IT386 systemd[1117]: gnome-session-monitor.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1117]: Stopped Monitor Session leader for GNOME Session.
+Apr  6 15:15:10 IT386 systemd[1]: Removed slice system-modprobe.slice.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped target Login Prompts (Pre).
+Apr  6 15:15:10 IT386 systemd[1]: Stopped target Graphical Interface.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped target Multi-User System.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped target Login Prompts.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped target Timers.
+Apr  6 15:15:10 IT386 systemd[1]: anacron.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Trigger anacron every hour.
+Apr  6 15:15:10 IT386 systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Daily apt upgrade and clean activities.
+Apr  6 15:15:10 IT386 systemd[1]: apt-daily.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Daily apt download activities.
+Apr  6 15:15:10 IT386 systemd[1]: e2scrub_all.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Apr  6 15:15:10 IT386 systemd[1]: fstrim.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Discard unused blocks once a week.
+Apr  6 15:15:10 IT386 systemd[1]: fwupd-refresh.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Refresh fwupd metadata regularly.
+Apr  6 15:15:10 IT386 systemd[1]: logrotate.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Daily rotation of log files.
+Apr  6 15:15:10 IT386 systemd[1]: man-db.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Daily man-db regeneration.
+Apr  6 15:15:10 IT386 systemd[1]: motd-news.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Message of the Day.
+Apr  6 15:15:10 IT386 systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Apr  6 15:15:10 IT386 systemd[1]: systemd-rfkill.socket: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Apr  6 15:15:10 IT386 ModemManager[663]: <info>  caught signal, shutting down...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Modem Manager...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Accounts Service...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping ACPI event daemon...
+Apr  6 15:15:10 IT386 NetworkManager[571]: <info>  [1743970510.8924] modem-manager: ModemManager no longer available
+Apr  6 15:15:10 IT386 ModemManager[663]: <info>  ModemManager is shut down
+Apr  6 15:15:10 IT386 systemd[1]: Stopping LSB: automatic crash report generation...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Manage, Install and Generate Color Profiles...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Regular background program processing daemon...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Make remote CUPS printers available locally...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping GNOME Display Manager...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping irqbalance daemon...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Tool to automatically collect and submit kernel crash signatures...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Apr  6 15:15:10 IT386 systemd[1]: openvpn.service: Succeeded.
+Apr  6 15:15:10 IT386 systemd[1]: Stopped OpenVPN service.
+Apr  6 15:15:10 IT386 systemd[1]: Stopping PackageKit Daemon...
+Apr  6 15:15:10 IT386 systemd[1]: Stopping QEMU Guest Agent...
