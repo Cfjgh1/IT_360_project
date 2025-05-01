@@ -1,0 +1,83 @@
+log_parsen.py
+import json
+
+
+def process_log_file(log_filepath, output_filepath="log_metrics.json"):
+    """
+    Reads a log file line by line, counts suspicious activities,
+    and writes the results to a JSON file. Also prints to terminal when matches occur.
+    """
+    counts = {
+        "total_lines": 0,
+        "ssh_starts": 0,
+        "http_requests": 0,
+        "ftp_login_attempts": 0,
+        "unauthorized_access": 0,
+        "errors": 0,
+        "warnings": 0
+    }
+
+
+    try:
+        with open(log_filepath, 'r') as log_file:
+            for line_number, line in enumerate(log_file, start=1):
+                counts["total_lines"] += 1
+                line_lower = line.lower()
+
+
+                if "OpenBSD Secure Shell server" in line_lower and "Starting" in line_lower:
+                    counts["ssh_starts"] += 1
+                    print(f"SSH service started at line {line_number}")
+
+                if "OpenBSD Secure Shell server" in line_lower and "stopped" in line_lower:
+                    counts["ssh_stops"] += 1
+                    print(f"SSH service stopped at line {line_number}")
+
+
+                if "edited user admin" in line_lower:
+                    counts["admin_edit"] += 1
+                    print(f"Firewall Admin account edited at line {line_number}")
+
+
+                if "Successfully created user" in line_lower:
+                    counts["user_created"] += 1
+                    print(f"Firewall user created at line {line_number}")
+
+                if "Successfully deleted user" in line_lower:
+                    counts["user deleted"] += 1
+                    print(f"Firewall user deleted at line {line_number}") 
+
+
+                if "unauthorized" in line_lower or "denied" in line_lower:
+                    counts["unauthorized_access"] += 1
+                    print(f"Unauthorized access attempt at line {line_number}")
+
+
+                if "error" in line_lower:
+                    counts["errors"] += 1
+                    print(f"Error found at line {line_number}")
+
+
+                if "warning" in line_lower:
+                    counts["warnings"] += 1
+                    print(f"Warning found at line {line_number}")
+
+
+    except FileNotFoundError:
+        print(f"Error: Log file not found at {log_filepath}")
+        return
+
+
+    with open(output_filepath, 'w') as out_file:
+        json.dump(counts, out_file, indent=4)
+
+
+    print(f"\nMetrics summary written to: {output_filepath}")
+    return counts
+
+
+
+
+if __name__ == "__main__":
+    log_path = "your_log_file_here.txt"  # Replace with our actual log file path
+    process_log_file(log_path)
